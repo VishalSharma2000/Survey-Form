@@ -1,0 +1,76 @@
+body{
+    background-color: #a9d7d1;
+    font-family: helvetica;
+    font-weight: 100;
+  }
+
+  #title{
+    text-align: center;
+    font-family: Helvetica;
+  }
+
+  #discription{
+    text-align: center;
+    font-family: helvetica;
+    padding-top: 30px;
+    font-weight: 100;
+  }
+
+  .container{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    border-radius: 4px;
+    margin: auto; 
+    font-family: helvetica;
+  }
+
+  #survey-form{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 10px;
+    grid-template-rows: repeat(4,45px)  110px 45px 320px 65px;
+    grid-column-gap: 7px;
+    padding: 9px;
+  }
+
+  #item1 , #item3, #item5, #item7, #item9 ,#item11,#item13,#item15 {
+    text-align: right;
+    padding: 7px;
+  }
+
+  #item10,#item14,#item16 {
+    padding: 4px;
+    line-height: 28px;
+  }
+
+  .inputbox{
+    height: 25px;
+    width: 290px;
+  }
+
+  .selectbox{
+    width: 150px;
+    height: 30px;
+  }
+
+  #comment-box{
+    width: 250px;
+    height: 55px;
+  }
+
+  #submit-button{
+    width: 80px;
+    height: 40px;
+    background: #649ffc;  
+    margin-left: 90%;
+    font-family: helvetisa;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 10px;
+  }
+
+.textInput{
+  height: 32px;
+}

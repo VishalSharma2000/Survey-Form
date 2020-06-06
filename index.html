@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey form</h1>
+
+    <div class="container">
+        <p id="discription">
+            Let us know how we can improve freeCodeCamp
+        </p>
+
+        <form id="survey-form">
+            <div id="item1">*Name:</div>
+            <div id="item2">
+                <input class="inputbox textInput" type="text" name="name" placeholder="Enter your name" required></div>
+            <div id="item3"> *Email:</div>
+            <div id="item4">
+                <input class="inputbox textInput" type="text" name="Email" placeholder="Enter your Email" required>
+            </div>
+            <div id="item5">*Age:</div>
+            <div id="item6">
+                <input class="inputbox textInput" type="number" name="Age" min="1" max="125"
+                    placeholder="Enter your Email" required> </div>
+            <div id="item7">Which option best describes your current role?</div>
+            <div id="item8">
+                <!-- The dropdown options-->
+                <select class="selectbox" name="currentposition">
+                    <option disabled value value="">Select an option</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time Job">Full time Job</option>
+                    <option value="Full time learner">Full time Learner</option>
+                    <option value="Prefer not to stay">Prefer not to stay</option>
+                    <option value="others">Others</option>
+                </select></div>
+            <!-- item 9 -->
+            <div id="item9">
+                How likely is that you will recommend freecodecamp to a friend</div>
+            <!-- item10-->
+            <div id="item10">
+                <input type="radio" value="Definitely" name="recommend" />Definitely<br>
+                <input type="radio" name="recommend" value="Maybe" />Maybe<br>
+                <input type="radio" value="  Not sure" name="recommend" />Not sure
+            </div>
+            <!-- item11-->
+            <div id="item11">What do you like most in FCC</div>
+            <!-- item12 -->
+            <div id="item12">
+                <select class="selectbox" name="likingAboutFCC">
+                    <option value="Select an option" disabled value>Select an option</option>
+                    <option value="Challenges">Challenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                </select></div>
+            <!--  item13-->
+            <div id="item13">
+                Things that should be improved in the future<br>(Check all that apply):
+            </div>
+            <!-- item14-->
+            <div id="item14">
+                <input type="checkbox" name="facilities" value="Front-end Projects">Front-end Projects<br>
+                <input type="checkbox" name="facilities" value="Back-end Projects">Back-end Projects<br>
+                <input type="checkbox" name="facilities" value="Data-visualization">Data Visualization<br>
+                <input type="checkbox" name="facilities" value="challenges">Challenges<br>
+                <input type="checkbox" name="facilities" value="Open Source Community">Open Source Community<br>
+                <input type="checkbox" name="facilities" value="Gitter Help rooms">Gitter Help rooms<br>
+                <input type="checkbox" name="facilities" value="Videos">Videos<br>
+                <input type="checkbox" name="facilities" value="City Meetups">City Meetups<br>
+                <input type="checkbox" name="facilities" value="Wiki">Wiki<br>
+                <input type="checkbox" name="facilities" value="Forum">Forum<br>
+                <input type="checkbox" name="facilities" value="Additional Cources">Additional Cources<br>
+                </input>
+            </div>
+            <!-- item15-->
+            <div id="item15">
+                Any Comments or Suggestion ?
+            </div>
+            <!--item16 -->
+            <div id="item16">
+                <textarea id="comment-box" type="c" placeholder="Enter your Comments here......"></textarea>
+            </div>
+            <button type="submit" value="submit" id="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
